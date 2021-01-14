@@ -1,0 +1,33 @@
+{
+  "name": "mb/gobline",
+  "description": "Theme für Gobline",
+  "type": "oxideshop-theme",
+  "keywords": [
+    "oxid",
+    "themes",
+    "eShop"
+  ],
+  "authors": [
+    {
+      "name": "Max Buhe",
+      "email": "privat@13uhe.de",
+      "homepage": "",
+      "role": "Owner"
+    }
+  ],
+  "support": {
+    "email": ""
+  },
+  "homepage": "",
+  "license": [
+    "GPL-3.0-only",
+    "proprietary"
+  ],
+  "minimum-stability": "dev",
+  "extra": {
+    "oxideshop": {
+      "target-directory": "gobline",
+      "assets-directory": "out/gobline"
+    }
+  }
+}
