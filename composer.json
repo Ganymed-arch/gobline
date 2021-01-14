@@ -27,7 +27,18 @@
   "extra": {
     "oxideshop": {
       "target-directory": "gobline",
-      "assets-directory": "out/gobline"
+      "assets-directory": "out/gobline",
+      "blacklist-filter": [
+        "build/**/*",
+        "grunt/**/*",
+        ".gitattributes",
+        ".gitignore",
+        "CHANGELOG.md",
+        "composer.json",
+        "CONTRIBUTING.md",
+        "Gruntfile.js",
+        "package.json"
+      ]
     }
   }
 }
